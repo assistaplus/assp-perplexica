@@ -1,0 +1,502 @@
+repo_name: assistaplus/assp-perplexica
+report_id: 223fa65629f09225e6d2f19780bba2ed
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T13:39:26+00:00'
+requested_by: ItzCrazyKns
+provider: github
+branch: master
+detected_tools_count: 38
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/assistaplus/assp-perplexica
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/assistaplus/assp-perplexica
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 14.1.4
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-05-03 15:46:48.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 13:18:26.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica
+  detection_source: Repo Metadata
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/yarn.lock
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-15 15:33:52.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-05-02 06:54:09.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.1.31
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-30 06:48:18.000000000 Z
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.12
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: "@types/cors"
+  description: TypeScript definitions for cors
+  package_url: https://www.npmjs.com/@types/cors
+  version: 2.8.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17290/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.12.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.74
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-05-03 15:46:48.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-05-03 15:46:48.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 14.1.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: langchain
+  description: Typescript bindings for langchain
+  package_url: https://www.npmjs.com/langchain
+  version: 0.1.31
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-05-03 15:46:48.000000000 Z
+- name: react-textarea-autosize
+  description: Textarea component for React which grows with content
+  package_url: https://www.npmjs.com/react-textarea-autosize
+  version: 8.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18399/default_b6c55b4b82fd22f93807b75b975c6924c9bd8f73.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-05-03 15:46:48.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-09 10:51:05.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-05-02 06:54:09.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/assistaplus/assp-perplexica/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: ItzCrazyKns
+  last_updated_on: 2024-04-30 06:48:18.000000000 Z
